@@ -21,7 +21,7 @@ ul {
     align-content: center;
 }
 li img {
-    border-radius: 60px;
+    border-radius: 50px;
     height: 100px;
     width: 100px;
 }
@@ -39,7 +39,7 @@ ul li a{
     color: grey;
 }
 footer{
-    height: 100px;
+    height: 150px;
     width: 100%;
     border: 1px solid black;
     background-image: linear-gradient(rgb(106, 79, 204, 0.8),
@@ -48,11 +48,10 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 40px;
+    align-items: center;
 }
 .contatofooter {
-    padding-top: 30px;
     width: 33%;
-    color: white;
     font-size: small;
     text-align: center;
 }
